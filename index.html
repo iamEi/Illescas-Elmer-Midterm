@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Engineering Midterm</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Midterm</h2>
+        <nav class="nav_links">
+            <ul>
+                <li><button onclick="location.href='https://youtu.be/xuCn8ux2gbs'">Youtube</button></li>
+                <li><button onclick="changeShape('content_id')">Change Shape</button></li>
+                <li><button  onclick="location.href=''">Resources</button></li>
+                <li><button onclick="hidePortion('container_id','my_button','about')
+                    ">About</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container" id="container_id">
+            <img id="my_photo" src="img/my_photo.jpg" alt="my photo">
+            <button class="my_button" onclick="reveal('my_photo')">Show/Hide</button>
+            <div id="about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero culpa! Dolores voluptatibus deserunt voluptatem, cumque ullam molestiae, quia quod accusamus commodi minima quisquam perspiciatis quas tenetur totam nobis corporis?</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="content_id">
+                <h1>Web</h1>
+                <h3>Engineering</h3>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div id="foot">
+            <p>Illescas, Elmer Dl.</p>
+            <p>BSCPE - 4C</p>
+            <p>Web Engineering - Midterm Examination, 2021-2022</p>
+        </div>
+        <div id="facebook">
+            <a href="https://www.facebook.com/elmer.illescas.56/"><img src="https://logodix.com/logo/429873.png" alt="facebook"></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>

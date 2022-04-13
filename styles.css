@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(83, 83, 81);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header{
+    display: flex;
+    height: 50px;
+    background-color: #189AB4;
+    color: #f2f2f2de;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    background-color: #1C1A1E;
+    color: #f2f2f2de;
+    height: 122px;
+}
+
+#facebook{
+    position: relative;
+    /* background-color: antiquewhite; */
+    right: -60%;
+    bottom: -20%;
+    height: 60%;
+}
+
+#facebook img{
+    height: 100%;
+    cursor: pointer;
+}
+
+#foot{
+    position: relative;
+    width: fit-content;
+    left: 10px;
+    padding: 2px 5px;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.content{
+    position: relative;
+    background-color: crimson;
+    background-image: url('img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    flex-basis: 100%;
+    margin: 0;
+}
+
+#content_id{
+    background-color: rgba(83, 83, 81,0.5);
+    border-radius: 30px;
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    color: #f2f2f2de;
+    padding: 20px;
+    transition: all 1s ease 0s;
+}
+
+h1{
+    font-size: 72px;
+    margin: 0;
+}
+
+h2{
+    font-size: 60px;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    background-color: #A5A5A5;
+    background-image: url('img/code.jpg');
+    background-size: cover;
+    height: 100%;
+    flex-basis: 0%;
+    margin: 0;
+}
+
+#container_id{
+    transition: all 1s ease 0s;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 0px;
+    
+}
+
+.nav_links li button{
+    background-color: rgba(28, 26, 30, 0.5);
+    color: #f2f2f2de;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li button:hover{
+    background-color: rgb(90, 162, 221,1);
+    color: #1C1A1E;;
+    padding: 10px 25px;
+}
+
+
+.logo{
+    position: relative;
+    right: 50%;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+#my_photo{
+    position: absolute;
+    border-radius: 100%;
+    display: block;
+    max-width: 50%;
+    top: 10%;
+    left: 20%;
+    transition: transform 0.5s;
+}
+
+#about{
+    position: absolute;
+    top: 45%;
+    padding: 10px;
+    margin: 20px;
+    color: #f2f2f2de;
+    background-color: rgba(28, 26, 30, 0.5);
+    border-radius: 30px;
+    display: none;
+}
+
+.my_button{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    cursor: pointer;
+    background-color: rgba(28, 26, 30, 0.5);
+    color: #f2f2f2de;
+    border-radius: 30px;
+    padding: 4% 4%;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.my_button:hover{
+    background-color: rgba(90, 162, 221,1);
+    color: #1C1A1E;
+    padding: 4% 6%;
+}
+
+#my_photo:hover{
+    opacity: 0.8;
+}
+
+
+
+
+

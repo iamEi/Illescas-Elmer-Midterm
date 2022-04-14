@@ -34,12 +34,25 @@ function hidePortion(my_element,my_class,mypar){
     }
 }
 
-function changeShape(my_div){
-    var x = document.getElementById(my_div);
-    if(x.style.borderRadius != "100%"){
-        x.style.borderRadius  = "100%";
+function appearance(){
+    var args = []; 
+    // Expected list: [content_id,header_id,midterm, yt,appearance,resources,hideportion]
+    for (let i = 0; i < arguments.length; i++){
+        args[i] = document.getElementById(arguments[i]);
+    }
+
+    if(args[0].style.borderRadius != "100%"){
+        args[0].style.borderRadius  = "100%";
+        args[0].style.backgroundColor = "rgba(175, 171, 170, 0.8)";
+        args[0].style.color = "rgba(27, 30, 34, 1)";
+
+        args[1].style.backgroundColor = "rgba(27, 30, 34, 1)";
     } else {
-        x.style.borderRadius  = "30px";
+        args[0].style.borderRadius  = "30px";
+        args[0].style.backgroundColor = "rgba(83, 83, 81,0.5)";
+        args[0].style.color = "#f2f2f2de";
+
+        args[1].style.backgroundColor = "#189AB4";
 }
 }
 

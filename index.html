@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Engineering Midterm</title>
+    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1WPIqqwlRNXV9fVWR-cc6V_4P7AdtYpMv">
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/iamEi/Illescas-Elmer-Midterm/scripts.js"></script>
+    <!-- <script src="scripts.js"></script> -->
 </head>
 <body>
-    <header>
-        <h2 class="logo">Midterm</h2>
+    <header id="header_id">
+        <h2 id="midterm" class="logo">Midterm</h2>
         <nav class="nav_links">
             <ul>
-                <li><button onclick="location.href='https://youtu.be/xuCn8ux2gbs'">Youtube</button></li>
-                <li><button onclick="changeShape('content_id')">Change Shape</button></li>
-                <li><button  onclick="location.href=''">Resources</button></li>
-                <li><button onclick="hidePortion('container_id','my_button','about')
+                <li><button id="yt" onclick="location.href='https://youtu.be/xuCn8ux2gbs'">Youtube</button></li>
+                <li><button id="appearance" onclick="appearance('content_id','header_id','midterm','yt','appearance','resources','hideportion')">Appearance</button></li>
+                <li><button  id="resources" onclick="location.href='https://github.com/iamEi/Illescas-Elmer-Midterm'">Resources</button></li>
+                <li><button id="hideportion" onclick="hidePortion('container_id','my_button','about')
                     ">About</button></li>
             </ul>
         </nav>
